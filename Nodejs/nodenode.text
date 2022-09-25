@@ -1,0 +1,2 @@
+"npm i module =D" is for dev dependancy later people can install the version the app uses
+nodemon app.js run app in dev mode
