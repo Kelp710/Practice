@@ -29,3 +29,11 @@ log(9,3)==3
 # Make hash map with amount of elements
 s = "leetcode"
 print(OrderedDict(Counter(s)).items())
+
+# 右回転マトリックス
+nums = [[1,2,3],[4,5,6],[7,8,9]]
+right_rote = [list(n) for n in zip(*nums[::-1])]
+print(right_rote)
+# 左回転マトリックス
+left_rote = [list(m) for m in zip(*nums)][::-1]
+print(left_rote)
