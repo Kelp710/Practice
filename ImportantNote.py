@@ -37,3 +37,8 @@ print(right_rote)
 # 左回転マトリックス
 left_rote = [list(m) for m in zip(*nums)][::-1]
 print(left_rote)
+
+# True can be 1 False can be 0
+n = 10
+n += (not "asiu12".isalnum())
+print(n)
